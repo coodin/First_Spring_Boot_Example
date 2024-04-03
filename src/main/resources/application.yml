@@ -1,0 +1,21 @@
+server:
+  port: 8181
+pizza:
+  sauce: "bbq"
+  topping: "chicken"
+  crust: "stuffed"
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  #  sql:
+  #    init:
+  #      mode: always
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: changemeinprod!
+    driverClassName: org.postgresql.Driver
+
+
